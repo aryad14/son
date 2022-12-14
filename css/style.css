@@ -2,6 +2,10 @@ body {
     background-color: #deb7aa;
 }
 
+button {
+    border-radius: 0 !important;
+}
+
 button:focus {
     border: none !important;
     outline: none !important;
@@ -157,6 +161,50 @@ button:focus {
 
 
 
+/* Contact Page */
+
+.contact-container-wrapper {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+.contact-container-wrapper .contact-container {
+    padding: 0 8rem;
+}
+
+
+.contact-right-head h5 {
+    font-family: 'Supreme', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.contact-container input {
+    border-radius: 0 !important;
+    padding: 0.5rem 0.5rem;
+}
+
+.contact-container textarea {
+    border-radius: 0 !important;
+}
+
+.contact-container button {
+    padding: 1.5rem 2.5rem;
+    background-color: #a71a38;
+    border: none;
+    font-family: 'Supreme', sans-serif;
+}
+
+.contact-container button:hover {
+    background-color: #771329;
+}
+
+
+
+
 @media (max-width: 992px) {
     .page-title .title-wrapper h3 {
         font-size: 7rem;
@@ -176,6 +224,11 @@ button:focus {
         padding-right: 2rem;
         line-height: 1.7;
         font-family: 'Supreme', sans-serif;
+    }
+
+
+    .contact-container-wrapper .contact-container {
+        padding: 0 1.5rem;
     }
 }
 
@@ -250,5 +303,12 @@ button:focus {
 
     .about-container-wrapper .about-container h5 {
         padding: 0;
+    }
+
+    .contact-container button {
+        padding: 1.25rem 2.25rem;
+        background-color: #a71a38;
+        border: none;
+        font-family: 'Supreme', sans-serif;
     }
 }
