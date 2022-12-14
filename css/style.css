@@ -12,6 +12,10 @@ button:focus {
     padding: 0 3vw;
 }
 
+.nav-link:hover {
+    color: #941833 !important;
+}
+
 .navbar .container-fluid {
     padding: 4vh 0;
     justify-content: space-between;
@@ -27,6 +31,10 @@ button:focus {
 
 .navbar-toggler {
     border: none
+}
+
+.dropdown-menu {
+    width: fit-content !important;
 }
 
 .navbar-toggler-icon {
@@ -54,7 +62,7 @@ button:focus {
 }
 
 .page-title {
-    padding: 0 5rem;
+    padding: 0 2.5rem;
 }
 
 .page-title > * {
@@ -68,7 +76,7 @@ button:focus {
     line-height: 8rem;
     font-weight: 900;
     text-transform: uppercase !important;
-    letter-spacing: 0px;
+    letter-spacing: -10px;
     text-transform: none;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -123,17 +131,22 @@ button:focus {
     .home-gallery-section {
         padding: 8rem 10vw;
     }
+
+    .page-title {
+        padding: 0 1.5rem;
+    }
 }
 
 @media (max-width: 768px) {
     .page-title .title-wrapper h3 {
         font-size: 5rem;
         line-height: 0.8;
-        left: 5%;
+        left: 3%;
+        letter-spacing: -5px;
     }
 
     .home-gallery-section {
-        padding: 6rem 2.5vw;
+        padding: 6rem 2rem;
     }
 }
 
@@ -150,7 +163,7 @@ button:focus {
     .page-title .title-wrapper h3 {
         font-size: 3.5rem;
         line-height: 0.8;
-        left: 6%;
+        left: 3%;
     }
 
     .navbar-brand {
@@ -164,12 +177,12 @@ button:focus {
     }
 
     .home-gallery-section {
-        padding: 3.5rem 1rem;
+        padding: 4.5rem 1rem;
     }
 
     .footer-container .footer-link-container .view-btn {
         border: #941833 solid 1px;
-        height: 90px;
+        height: 75px;
         border-radius: 200px 200px 0 0;
         width: 40%;
         text-align: center;
