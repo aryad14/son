@@ -65,8 +65,12 @@ button:focus {
     padding: 0 2.5rem;
 }
 
-.page-title > * {
+.page-title>* {
     z-index: 1050 !important;
+}
+
+.page-title .title-wrapper {
+    position: absolute;
 }
 
 .page-title .title-wrapper h3 {
@@ -80,7 +84,7 @@ button:focus {
     text-transform: none;
     margin-top: 0px;
     margin-bottom: 0px;
-    position: absolute;
+    position: relative;
     z-index: 1050 !important;
 }
 
@@ -122,6 +126,36 @@ button:focus {
     color: #941833;
 }
 
+
+
+/* About Page */
+.about-container-wrapper {
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+.about-container-wrapper .about-container {
+    padding: 0 3rem;
+}
+
+.about-container-wrapper .about-container h3 {
+    font-size: 16px;
+    color: #941833;
+    letter-spacing: 5px;
+    font-family: 'Supreme', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.about-container-wrapper .about-container h5 {
+    font-size: 15px;
+    padding-right: 9rem;
+    line-height: 1.7;
+    font-family: 'Supreme', sans-serif;
+}
+
+
+
 @media (max-width: 992px) {
     .page-title .title-wrapper h3 {
         font-size: 7rem;
@@ -133,7 +167,14 @@ button:focus {
     }
 
     .page-title {
-        padding: 0 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .about-container-wrapper .about-container h5 {
+        font-size: 15px;
+        padding-right: 2rem;
+        line-height: 1.7;
+        font-family: 'Supreme', sans-serif;
     }
 }
 
@@ -148,22 +189,27 @@ button:focus {
     .home-gallery-section {
         padding: 6rem 2rem;
     }
+
+    .about-container-wrapper .about-container {
+        padding: 0 1.5rem;
+        padding-top: 1rem;
+    }
 }
 
 @media (max-width: 576px) {
 
     .navbar {
-        padding: 0 1rem;
+        padding: 0 1.5rem;
     }
 
     .page-title {
-        margin-top: 2rem;
+        margin-top: 0.5rem;
     }
 
     .page-title .title-wrapper h3 {
         font-size: 3.5rem;
         line-height: 0.8;
-        left: 3%;
+        left: 0%;
     }
 
     .navbar-brand {
@@ -194,5 +240,14 @@ button:focus {
         position: relative;
         top: 20px;
         font-size: 10px;
+    }
+
+    .about-container-wrapper .about-container {
+        padding: 0 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .about-container-wrapper .about-container h5 {
+        padding: 0;
     }
 }
