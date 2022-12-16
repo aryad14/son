@@ -366,6 +366,13 @@ button:focus {
 }
 
 
+.carousel-exhibit {
+    padding: 0rem 5rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+
 
 
 @media (max-width: 992px) {
@@ -452,6 +459,14 @@ button:focus {
         padding: 0 1rem;
         margin-top: 8rem;
     }
+
+
+    /* Exhibit Page */
+    .carousel-exhibit {
+        padding: 0rem 4rem;
+        padding-top: 2rem;
+    }
+    
 }
 
 @media (max-width: 576px) {
@@ -531,6 +546,12 @@ button:focus {
         padding: 0 1rem;
         margin-top: 6rem;
     }
+
+    /* Exhibit Page */
+    .carousel-exhibit {
+        padding: 0rem 0rem;
+    }
+    
 }
 
 @media (max-width: 327px) {
